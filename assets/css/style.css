@@ -5,4 +5,42 @@ font-family: 'Kavivanar', cursive;
 font-family: 'Lexend Zetta', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Cinzel+Decorative:wght@400;700;900&family=Kavivanar&family=Lexend+Zetta:wght@300;400;500;600;700;800&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
+}
+body { 
+    font-family: 'Lexend Zetta',sans-serif;
+}
+
+
+
+
+.informacion-de-contacto{ 
+    width: 100vh;
+    height: 15rem;
+}
+
+.form-register {
+    background-color: rgb(70, 172, 27);
+    padding: 30px;
+    border-radius: 5px;
+    width: 450px;
+    margin-top: 100px;
+    margin:auto;
+    font-family: 'calibri',sans-serif;
+    font-weight: 700;
+}
+.form-register h4 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.controls {
+
+}
+
+.boton-de-contacto {
+
+}
