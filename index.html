@@ -13,30 +13,36 @@
     <title>Healthy Food Chile</title>
 </head>
 <body>
+
+    <!-- Comenzamos con el Header -->
     <header>
-        <div class="container-header">
+        <div class="container-header box">
             <h3 class="logo-header">Healthy Food</h3>
         </div>
         <nav>
-            <a href="#">Nosotros</a>
-            <a href="#">Productos</a>
-            <a href="#">Nutricionista</a>
-            <a href="#">Maquinarias e Implementos</a>
-            <a href="#">Contacto</a>
+            <a href="#Nosotros">Nosotros</a>
+            <a href="#Productos">Productos</a>
+            <a href="#nutricionista">Nutricionista</a>
+            <a href="#maquinarias-e-implementos">Maquinarias e Implementos</a>
+            <a href="#Contacto">Contacto</a>
         </nav>
     </header>
-    <section id="Inicial"> 
+
+    <!-- Primer div de la operación -->
+    <section class="box" id="Inicial"> 
         <h1>Cuida tu salud con </br>la mejor alimentación </h1>
-        <button>Conoce más</button>
+        <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <button>Conoce más</button></form>
     </section>
-    <section id="Nosotros">
+
+    <!-- La historia comienza -->
+    <section class="box" id="Nosotros">
         <div class="contenedor-Nosotros">
-        <div class="img-container"></div>
             <h2>La historia de Healthy Food </h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat explicabo qui at unde laboriosam mollitia adipisci pariatur minima nostrum. Molestiae id placeat maxime veniam vero expedita inventore cumque ad.</p>
         </div>
     </section>
-    <section id="Productos">
+    <section class="box" id="Productos">
         <div class="contenedor-Productos">
             <div class="titulo-Productos">
                 <h2>Productos Seleccionados</h2>
@@ -46,7 +52,7 @@
             </div>
         </div>
     </section>
-    <section id="nutricionista">
+    <section class="box" id="nutricionista">
         <div class="contenedor-nutricionista">
             <a href="https://instagram.com/ifeets_?igshid=MzRlODBiNWFlZA==">Nutricionista Stefania</a>
         </div>
@@ -55,7 +61,7 @@
         </div>
         <div class="imagen-nutricionista">Imagen de la Tefy</div>
     </section>
-    <section id="maquinarias-e-implementos">
+    <section class="box" id="maquinarias-e-implementos">
         <div class="contenedor-cards">
             <div class="card1">
                 <h3>Banco para ejercicio plegable e inclinable bench 500</h3>
@@ -89,21 +95,7 @@
             </div>
         </div>
     </section>
-    <section id="contacto">
-        <div class="informacion-de-contacto">
-            <section class="form-register">
-                <h3>Registro para Usuarios</h3>
-                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-                <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Email">
-                <input class="controls" type="text" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
-                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-                <input class="boton-de-contacto" type="submit" value="Registrar">
-                <p><a href="#">¿Ya tengo Cuenta?</a></p>
-            </section>
-        </div>
-    </section>
-    <footer>
+    <footer id="Contacto">
         Healthy Food Chile E.I.R.L. . Todos los derechos Reservados. 2023
     </footer>
 </body>
