@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Boostrap -->
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Titulo de la Pagina -->
@@ -19,84 +20,95 @@
         <div class="container-header box">
             <h3 class="logo-header">Healthy Food</h3>
         </div>
-        <nav>
+        <input type="checkbox" id="check">
+        <label class="mostrar-menu" for="check">
+            &#8801
+        </label>
+        <nav class=header-nav>
             <a href="#Nosotros">Nosotros</a>
             <a href="#Productos">Productos</a>
-            <a href="#nutricionista">Nutricionista</a>
-            <a href="#maquinarias-e-implementos">Maquinarias e Implementos</a>
             <a href="#Contacto">Contacto</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
         </nav>
     </header>
 
     <!-- Primer div de la operación -->
     <section class="box" id="Inicial"> 
         <h1>Cuida tu salud con </br>la mejor alimentación </h1>
-        <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-            <button>Conoce más</button></form>
+        <a  href="https://www.youtube.com/watch?v=GLL8FBEQG0g&t=1s"> <button>Conoce más</button></a>
     </section>
 
     <!-- La historia comienza -->
-    <section class="box" id="Nosotros">
-        <div class="contenedor-Nosotros">
-            <h2>La historia de Healthy Food </h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat explicabo qui at unde laboriosam mollitia adipisci pariatur minima nostrum. Molestiae id placeat maxime veniam vero expedita inventore cumque ad.</p>
-        </div>
-    </section>
     <section class="box" id="Productos">
         <div class="contenedor-Productos">
             <div class="titulo-Productos">
                 <h2>Productos Seleccionados</h2>
             </div>
-            <div class="galeriadeimagenes">
-                GALERIA DE IMAGENES
-            </div>
         </div>
-    </section>
-    <section class="box" id="nutricionista">
-        <div class="contenedor-nutricionista">
-            <a href="https://instagram.com/ifeets_?igshid=MzRlODBiNWFlZA==">Nutricionista Stefania</a>
-        </div>
-        <div class="texto-nutricionista">
-            <p>Stefania Garces, Nutricionista titulada en la Universidad las Americas y además cuenta con una certificación internacional en calidad y servicios de alimentación.</p>
-        </div>
-        <div class="imagen-nutricionista">Imagen de la Tefy</div>
-    </section>
-    <section class="box" id="maquinarias-e-implementos">
         <div class="contenedor-cards">
-            <div class="card1">
+            <div class="card1 box">
+                <div>
+                    <img class="img1" src="https://contents.mediadecathlon.com/p1099733/k$289c299128726f5bd070d0a9a9e155c1/banco-de-musculacion-500-plegable-e-inclinable-domyos.jpg?format=auto&quality=40&f=800x800" alt="Banco">
+                </div>
                 <h3>Banco para ejercicio plegable e inclinable bench 500</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ex, vero sequi nulla veritatis voluptatum, corporis sed debitis nisi doloribus repellendus magni recusandae suscipit praesentium neque qui. Explicabo, debitis ducimus.</p>
+                <p>Valor $50.000</p>
                 <button>Más Info</button>
             </div>
-            <div class="card2">
+            <div class="card2 box">
+                <div>
+                    <img class="img2" src="https://contents.mediadecathlon.com/p2297777/k$05ca32eeb76cc64197c38bd388d678e9/kit-de-mancuernas-20-kg.jpg?format=auto&quality=40&f=800x800" alt="Kit de Mancuernas">
+                </div>
                 <h3>Kit mancuernas 20 kg</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ex, vero sequi nulla veritatis voluptatum, corporis sed debitis nisi doloribus repellendus magni recusandae suscipit praesentium neque qui. Explicabo, debitis ducimus.</p>
+                <p>Valor $35.000</p>
                 <button>Más Info</button>
             </div>
-            <div class="card3">
+            <div class="card3 box">
+                <div>
+                    <img class="img3" src="https://contents.mediadecathlon.com/p2012129/k$0368b561ec9df62708b06d1b0ab51ab2/rueda-abdominales-crosstraining-ab-wheel.jpg?format=auto&quality=40&f=800x800" alt="Rueda para Abdomen">
+                </div>
                 <h3>Rueda para abdominales carga máx 130 kg</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ex, vero sequi nulla veritatis voluptatum, corporis sed debitis nisi doloribus repellendus magni recusandae suscipit praesentium neque qui. Explicabo, debitis ducimus.</p>
+                <p>Valor $15.000 </p>
                 <button>Más Info</button>
             </div>
-            <div class="card4">
+            <div class="card4 box">
+                <div>
+                    <img class="img4" src="https://contents.mediadecathlon.com/p1907787/k$ba1d0683e5b68e38c8ae0487667b8ebc/agarraderas-para-flexionesslashpush-up-bars-azul-y-negro.jpg?format=auto&quality=40&f=800x800" alt="Implementos para flexiones">
+                </div>
                 <h3>Barra para flexiones push up 500</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ex, vero sequi nulla veritatis voluptatum, corporis sed debitis nisi doloribus repellendus magni recusandae suscipit praesentium neque qui. Explicabo, debitis ducimus.</p>
+                <p>Valor $10.000 </p>
                 <button>Más Info</button>
             </div>
-            <div class="card5">
+            <div class="card5 box">
+                <div>
+                    <img class="img5" src="https://contents.mediadecathlon.com/p2097113/k$6aec1f7948846ee1fd98ae4a58dd1fb0/barra-dominadas-para-pared.jpg?format=auto&quality=40&f=800x800" alt="Barra pared">
+                </div>
                 <h3>Barra para pared</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ex, vero sequi nulla veritatis voluptatum, corporis sed debitis nisi doloribus repellendus magni recusandae suscipit praesentium neque qui. Explicabo, debitis ducimus.</p>
+                <p>Valor $25.000</p>
                 <button>Más Info</button>
             </div>
-            <div class="card6">
+            <div class="card6 box">
+                <div>
+                    <img class="img6" src="https://contents.mediadecathlon.com/p2490479/k$4b227ee411bcb73e9cd5a8b1825aec91/banco-de-pesas-plegable.jpg?format=auto&quality=40&f=800x800" alt="Banco de Pesas Pegable">
+                </div>
                 <h3>Banco plegable press</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ex, vero sequi nulla veritatis voluptatum, corporis sed debitis nisi doloribus repellendus magni recusandae suscipit praesentium neque qui. Explicabo, debitis ducimus.</p>
+                <p>Valor $35.000</p>
                 <button>Más Info</button>
             </div>
         </div>
     </section>
     <footer id="Contacto">
-        Healthy Food Chile E.I.R.L. . Todos los derechos Reservados. 2023
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+        <p>Healthy Food Chile E.I.R.L. <span>
+            Todos los derechos Reservados. 2023</span> 
+        </p>
     </footer>
 </body>
 </html>
